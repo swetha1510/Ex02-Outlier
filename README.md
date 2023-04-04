@@ -19,28 +19,28 @@ You are given bhp.csv which contains property prices in the city of banglore, In
 TO detect and remove the outliers in the given data set and save the final data.
 
 # Algorithm:
-###Step 1:
+### Step 1:
 Import the required packages(pandas,numpy,scipy)
 
-###Step 2:
+### Step 2:
 Read the given csv file
 
-###Step3:
+### Step3:
 Convert the file into a dataframe and get information of the data.
 
-###Step 4:
+### Step 4:
 Remove the non numerical data columns using drop() method.
 
-###Step 5:
+### Step 5:
 Detect the outliers in the data set using z scores method.
 
-###Step 6:
+### Step 6:
 Remove the outliers by z scores and list manupilation or by using Interquartile Range(IQR)
 
-###Step 7:
+### Step 7:
 Check if the outliersare removed from data set using graphical methods.
 
-###Step 8:
+### Step 8:
 Save the final data set into the file.
 
 
